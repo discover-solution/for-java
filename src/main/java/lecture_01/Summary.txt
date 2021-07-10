@@ -1,0 +1,9 @@
+Static Block Initialization
+Instance Block Initialization
+Object Initialization
+What happens once object is created in java ?
+Constructor Chaining (using super() & this())
+Dynamic Linking..?
+Reflection
+Metadata Driven Development
+Create custom-annotation using reflection ?
