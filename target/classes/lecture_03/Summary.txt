@@ -1,0 +1,16 @@
+Error:
+Programmatically we cannot recover it. Manually we need to increase the Stack/Heap memory.
+Permgen : If it's not able to load all the jars and classes are in memory.
+OutOfMemory : 
+StackOverFlow : 
+
+
+Serialization :
+Externalization : (read resole, write resolve)
+
+How to save transient data also ? 
+How toget backward compatability ?
+
+Homework :
+What is JVM Architecture ?
+What L1/L2 cache ?
