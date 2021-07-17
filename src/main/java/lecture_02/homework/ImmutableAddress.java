@@ -14,7 +14,7 @@ public final class ImmutableAddress implements Serializable{
     ImmutableAddress(String addressType, Integer pinCode, Date date){
         this.addressType = addressType;
         this.pinCode = (pinCode > 999999 || pinCode < 000000) ? defaultPinCode : pinCode;
-        this.lastVisitDate = new Date(date.compareTo(lastVisitDate));
+        this.lastVisitDate = new Date(date.compareTo(lastVisitDate));//recent date
     }
 
     public String getAddressType(){

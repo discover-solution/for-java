@@ -3,7 +3,7 @@ Deep Cloning (Explicitly you are copying the data not the object)
 Shallow Cloning
 Homework : 
 Employee Class has --> List<Department>
-now make the department class as immutable and Cloneable
+now make the department class as immutable and Clonable
 
 Best way of doing cloning
 ---------------------------------------
