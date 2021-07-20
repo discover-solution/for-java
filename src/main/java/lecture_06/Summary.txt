@@ -1,0 +1,35 @@
+Executor Framework:
+-------------------
+                    It's a tool which manage thread management itself.
+                    (managing thread lifecycle, threadpool management, memory management)
+
+# Read about Amdhal's law in Executor Framework
+
+# Worker Thread 
+
+Future.get() is a blocking call, Until unless it won't get the data it will wait for executor service to be completed.
+
+# Map Reduce pattern
+During Parallel processing, how to do the aggregation ?
+
+---------------------------------------------------------------------
+
+Concurrent Collection:
+----------------------
+
+ArrayBlockingQueue : Fixed Blocking Queue
+LisnkedBlockingQueue : Variable Blocking Queue
+
+Read Completely about Concurrent HashMap
+---> shared lock vs exclusive lock
+
+* all thread-safe data stuctures doesn't accept null values.
+
+-------------------------------------------------------------------------
+
+Synchronizers:
+--------------
+
+
+-----------------------------------------------------------------------
+fork-join threadpool from java 1.7
