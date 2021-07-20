@@ -1,0 +1,38 @@
+Static Block Initialization
+Instance Block Initialization
+Object Initialization
+What happens once object is created in java ?
+Constructor Chaining (using super() & this())
+Dynamic Linking..?
+Reflection
+Metadata Driven Development
+Create custom-annotation using reflection ?
+
+
+--------------------------------------------------
+Encapsulation: 
+                Take care about binding all memmbers into a single unit.
+                It doesn't talk about which data members has to show at what level.
+                (means : It doesn't matter which data is having private/public/protected access modifiers)
+
+Abstraction:
+                This concept take care about which data members will be visible to what level.
+                (means : private with the data members, but public with toString() overriden method).
+
+Inheritence:
+                Providing properties from super-class to sub-class.
+                By using extends/implements keyword.
+
+Polymorphism:
+                Runtime-Polymorphism(Method Overriding)
+                Compiletime-Polymorphism(Method Overloading)
+
+-------------------------------------------------------------------------------------------------------
+
+Method Overriding:
+---> No change in method parameters
+---> No change in method name
+---> No change in return type
+
+Method Overloading:
+To-Do

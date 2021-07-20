@@ -1,0 +1,34 @@
+Error:
+Programmatically we cannot recover it. Manually we need to increase the Stack/Heap memory.
+Permgen : If it's not able to load all the jars and classes are in memory.
+OutOfMemory : 
+StackOverFlow : 
+
+
+Serialization :
+Externalization : (read resole, write resolve)
+
+Parent -> Child class Serialization concept.
+
+How to save transient data also ? 
+How toget backward compatability ?
+
+Homework :
+What is JVM Architecture ?
+What L1/L2 cache ?
+-- Computer Organization Subject
+CPU memory mapping algorithm ? -> Round Robin Algorithm
+
+
+Multithreading :
+
+Happen before relation-ship ?
+Read/Write memory barrier ?
+
+-> Resolve data Visibility problem by using : volatile, final keyword, object lock.
+#   read about "volatile".
+#   read about final initialization in constructor.
+
+***************************************************
+Set and compare 
+Non-Blocking concurrent program

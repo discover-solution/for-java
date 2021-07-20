@@ -1,0 +1,19 @@
+Fruit:
+        Define : Name of fruit, which nutrition it consists, what is the cost/kg
+        Name of fruit -> not able to change, ex: Mango,Papaya
+        Type of nutrition -> not able to change, ex : Vitamin B+C+E / Vitamin B12
+        cost of fruit -> can be updatable, ex : 70, 40
+        
+    * String fruitName;
+    * String nutritionType;
+    # int cost;
+
+FruitBasket:
+        Define : Name of basket, Which type of basket, basket can consists list of fruits.
+        Name of basket -> not able to change, ex: Basket1, Basket2
+        Type of Basket -> not able to change, ex: Woods, Plastic
+        List of fruits -> can consists list of fruits, ex: {Mango,Papaya}
+    
+    * String basketName;
+    * String basketType;
+    # List<Fruit> listOfFruits;

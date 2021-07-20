@@ -1,0 +1,12 @@
+# Write a programm to take a lock by 
+-- synchronized block ?
+-- synchronized method ?
+-- synchronized class ?
+# write a program using re-interant lock ?
+# write a program to do inter-thread communication 
+-- with blocking queue ?
+-- without blocking queue (normal lock & exchanger)
+# write a program to implement own threadpool ?
+
+
+Write a Deep O Copy Cloneable Fruit Basket class having list of Fruits.

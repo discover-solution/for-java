@@ -1,0 +1,21 @@
+Multi Threading : 
+
+What is context switching in java ?
+A thread is a light weight process which have it's own instruction to execute and finish the task.
+
+Read about Race Condition very carefully.
+If a instance/static varibale is getting modified from 
+
+*********************Thread-Safe***********************
+make Class Immutable
+By using synchronized
+By using Thread-Local
+
+--------------------------------------------------------
+What is Lock/ReInterant Lock ?
+Shared Lock, Exclusive Lock
+----------------------------------------------------------
+CAS : Compare And Set algorithm
+----------------------------------------------------------
+Books :
+Inside JVM, Artima, Effective Java Book, Concurrency in Practice 
