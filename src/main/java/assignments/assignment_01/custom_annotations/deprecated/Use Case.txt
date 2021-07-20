@@ -1,0 +1,6 @@
+• Create an Employee class with the following instance variables:
+    empId : Integer
+    empName : String
+• Implement the following method:
+    printEmployee
+• Use the @Deprecated annotations in the above method.

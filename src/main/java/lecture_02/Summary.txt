@@ -6,12 +6,11 @@ Employee Class has --> List<Department>
 now make the department class as immutable and Clonable
 
 Best way of doing cloning
----------------------------------------
+------------------------------------------------------------
 if(obj1 instanceof Cloneable){
     obj2 = obj1.clone();
 }
-----------------------------------------
-
+------------------------------------------------------------
 why we make the variables final in immutable class ?
 we don't provide setter and the variables are final then through Reflection also, at runtime some one cannot
 change the state of object.
