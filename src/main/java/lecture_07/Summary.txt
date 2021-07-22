@@ -1,0 +1,27 @@
+Collection Framework:
+---------------------
+
+***  While defining (data type  required at compile time)
+ArrayList<String> arrayList = new ArrayList<>();
+
+*** At Runtime data type used to remove by (By Type Eraiser concept)
+ArrayList arrayList = new ArrayList();
+
+-->Write a program to define 
+    ArrayList<Integer> & Array of int [ ] 
+    and now try to put string values using Reflection.
+
+--> ArrayList:
+    Suitable for read operation due to O(1) time complexity and Random Access implementation.
+    Suitable for always adding element at last index. O(1) time complexity.
+    Not Suitable for adding element at first index becuase shift operation happens for next all elements. O(1)+O(n)
+    Not suitable for adding/deleting elements from middle also. shift operation happens till O(n/2) ~ O(n)
+    It always maintains the insertion order.
+    Dynamic in nature, means growable in size.
+
+--> LinkedList:
+    Suitable for always adding element at first index. O(1) -> pointer address passed to next node.
+    Suitable for inserting/deleting element at middle index. Traversing from head to middle position O(n/2) and
+        insert/delete element. After that pointer needs to be set on neighbour node address.
+    Not Suitable for adding element at last index. Traversing from head to tail O(n) then element insertion.
+    It always maintains the insertion order.

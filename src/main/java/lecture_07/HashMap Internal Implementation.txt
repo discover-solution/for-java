@@ -1,0 +1,37 @@
+*********HashMap Internal Implementation*********
+-------------------------------------------------
+
+                        map.put(key,value):
+-----                   -------------------
+|   |                1. key.hashCode() -> n (getting unique integer value)
+-----                2. n % initialCapacity -> Kth index (hashing) 
+|Kth|                   '>>>' bitwise operator is used after java 1.5 
+-----                   because % (modulo operation is costly operation from hardware prospective)
+|   |                3. add the value at Kth index of bucket       
+-----                4. if Kth index has already data 'equals() method returns true'
+|   |                   that means value needs to be replaced.
+-----                5. if 'equals() method returns false', value gets added at the Kth index.
+
+Note : If at step 2 has the same hashCode for different key and equals() returns false then hash collision happens
+        and one new node gets created as a linked list. and another value got added.
+                        -----
+                        |Kth|{val 1}|{val 2}
+                        -----
+        Till Java 1.7 java used linked list for new node creation but after Java 1.8 if same node is having more
+        than 8 values then the linked list converted into a binary search tree.
+
+                        map.get(key):
+                        -------------
+                     1. key.hasCode() -> n
+                     2. n % intialCapacity -> Kth index
+
+                     --> O(1) search at Kth index, return the 'value' or return 'null' (if value is not present).
+---------------------------------------------------------------------------------------------------------------------
+
+For using custom class as key of HashMap:
+    1. Override hashCode() using all members of class (id+name+age)
+       --- why we're multiplying by 31 in hashCode() : 
+           because of uniquesness of hashCode + cannot exceed in 32-bit system.
+    2. Override equals() method using all members of class (id+name+age)
+       --- So that it can compare existing object is same as new object.
+    3. Finally we need to make our custom class immutable.
