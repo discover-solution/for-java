@@ -1,0 +1,17 @@
+LinkedHashMap:
+                LRU Cache, How it is maintain insertion order.
+WeakHashMap, IdentityHashMap
+
+Read about comparable/comparator ?
+
+---------------------------------------------------------------
+Sorting:
+
+Selection Sort :
+                Left Side is Sorted | Right side is unsorted list
+                from right side it take one and place into left side by comparison
+
+
+Recursive Programming : Focus Point
+                    1. Exit condition from method
+                    2. when you need to call same method inside that method
