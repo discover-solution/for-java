@@ -1,0 +1,33 @@
+Functional Interface:
+                    Higher Order Function -- A function which is taking property from
+                    -- another function as an argument, is called as Higher Order function
+                    If write @FunctionalInterface annotation then compiler understand
+                    -- as a programmer you're not going to break the only one promise
+                    -- about abstract method.
+                    If we were writing annonymous class then after compilation, 
+                    -- the class file generation was happening
+                    -- but using lamda/functional expression is tread as function only.
+                    Pic7: checkString method is Higher ordered function.
+
+Method Reference/Constructor Reference/Annonymous Reference expertise will come from practise.
+
+Lambda vs Method Reference: Exercise Java8/Pic:28.png
+--Implicit type of argument can be converted in Method Reference but 
+--explicit unknown value "S" with lambda cannot be change into Method Reference.
+
+-------------------------------------------------------------------------------------------------
+
+Stream doesn't hold the data as like collection ,
+-- it's pull the data from collection/array and pass it through various operation.
+** Stream.generate(Math.Random) -> infinte stream (Supplier interface) 
+--> always provide values, never takes any data
+** Once stream starts, then its continously ask for data for processing, until we limit it.
+-------------------------------------------------------------------------------------------------
+findFirst() -> traverse by order 
+findAny() -> traverse randomly
+-------------------------------------------------------------------------------------------------
+Optional: 
+--When we're not sure about upcoming data for processing is available or not, then we use Optional.
+-------------------------------------------------------------------------------------------------
+Read About Reducers:
+-------------------------------------------------------------------------------------------------
