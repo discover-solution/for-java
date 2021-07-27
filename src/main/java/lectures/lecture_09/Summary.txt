@@ -18,7 +18,8 @@ Lambda vs Method Reference: Exercise Java8/Pic:28.png
 -------------------------------------------------------------------------------------------------
 
 Stream doesn't hold the data as like collection ,
--- it's pull the data from collection/array and pass it through various operation.
+-- it's pull the data from collection/array and 
+-- pass it through sequencely/parallely for intermediate/terminal operation.
 ** Stream.generate(Math.Random) -> infinte stream (Supplier interface) 
 --> always provide values, never takes any data
 ** Once stream starts, then its continously ask for data for processing, until we limit it.
