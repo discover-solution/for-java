@@ -1,0 +1,3 @@
+Difference between Abstract class and interface:
+
+Abstract class : 

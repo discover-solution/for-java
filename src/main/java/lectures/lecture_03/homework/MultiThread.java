@@ -9,7 +9,7 @@ public class MultiThread extends Thread{
      private static class Factory{
          private static int x = 0;
          private static synchronized void printNum(){
-             System.out.print(Thread.currentThread().getName() + " : "+x+" ");
+             System.out.print(Thread.currentThread().getName() + " : "+x+" \n");
              x++;
          }
      }

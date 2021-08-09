@@ -17,5 +17,11 @@ Shared Lock, Exclusive Lock
 ----------------------------------------------------------
 CAS : Compare And Set algorithm
 ----------------------------------------------------------
+Java NIO
+----------------------------------------------------------
 Books :
 Inside JVM, Artima, Effective Java Book, Concurrency in Practice 
+----------------------------------------------------------
+Dyna Trace, J-Profiler, Your KIT
+----------------------------------------------------------
+PermGen vs Metaspace

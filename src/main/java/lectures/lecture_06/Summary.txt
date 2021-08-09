@@ -7,7 +7,8 @@ Executor Framework:
 
 # Worker Thread 
 
-Future.get() is a blocking call, Until unless it won't get the data it will wait for executor service to be completed.
+Future.get() is a blocking call, 
+Until unless it won't get the data it will wait for executor service to be completed.
 
 # Map Reduce pattern
 During Parallel processing, how to do the aggregation ?
@@ -33,3 +34,45 @@ Synchronizers:
 
 -----------------------------------------------------------------------
 fork-join threadpool from java 1.7
+
+-----------------------------------------------------------------------
+https://youtu.be/P8Xa2BitN3I
+https://www.youtube.com/watch?v=zaBhtODEL0w&ab_channel=HackerRank
+https://youtu.be/wjI1WNcIntg
+-----------------------------------------------------------------------
+https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/
+-----------------------------------------------------------------------
+
+[08:21 pm] Rashid Noorani (Guest)
+    •VisualVM
+•JConsole
+•YourKit
+•DynaTrace
+•
+•Assignment
+•Create a deadlock using Java multithreading and detect it using any tool.
+​[08:26 pm] Rashid Noorani (Guest)
+    •Class lock vs Object lock
+​[08:31 pm] Rashid Noorani (Guest)
+    syncrhonized(Class.class) {​​​
+​[08:31 pm] Rashid Noorani (Guest)
+    }​​​
+​[08:32 pm] Rashid Noorani (Guest)
+    •notify() vs notifyAll()
+•wait() vs sleep()
+•wait() vs join()
+•volatile vs final vs synchronized vs atomic (CAS)
+•Can we use synchronized(this) in static method?
+•synchronized vs Lock API
+•Double null check in singleton design pattern
+•Class lock vs Object lock
+•User Thread vs Daemon Thread
+•Runnable vs Callable   
+•What is a shutdown hook?  
+•ConcurrentHashMap and Hashtable?
+•What is ThreadLocal?
+•Is it possible to call the run() method directly to start a new thread?
+•Future vs CompletableFuture
+*https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html
+
+

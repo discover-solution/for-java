@@ -1,14 +1,14 @@
 package lectures.lecture_03.homework;
 
 /**
-    While printing numbers in sequence using threads trick is to use modulo division to 
-    check which thread can print the number and which threads are to be blocked waiting.
-
-    Each thread is assigned one of the numbers 0, 1 and 2. 
-    Each number is divided by 3 (number of threads), 
-    remainder will be any one of these numbers 0, 1 or 2. 
-    That is what is checked; if (remainder = number assigned to thread) 
-    only then thread can work otherwise it goes into waiting state.
+ * While printing numbers in sequence using threads trick is to use modulo division to 
+ *  check which thread can print the number and which threads are to be blocked waiting.
+ * 
+ *  Each thread is assigned one of the numbers 0, 1 and 2. 
+ *  Each number is divided by 3 (number of threads), 
+ *  remainder will be any one of these numbers 0, 1 or 2. 
+ *  That is what is checked; if (remainder = number assigned to thread) 
+ *  only then thread can work otherwise it goes into waiting state.
  */
 public class SequenceNumber {
     final static int NUMBER_IN_SEQUENCE = 19;

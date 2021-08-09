@@ -1,4 +1,4 @@
-package lecture_01;
+package lectures.lecture_01.classroom;
 
 import java.util.HashMap;
 
