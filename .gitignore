@@ -29,3 +29,4 @@ target/classes/lecture_02/Summary.txt
 target/classes/META-INF/MANIFEST.MF
 target/classes/META-INF/maven/JavaBasics/java-basics/pom.xml
 target/classes/META-INF/maven/JavaBasics/java-basics/pom.properties
+/target/
